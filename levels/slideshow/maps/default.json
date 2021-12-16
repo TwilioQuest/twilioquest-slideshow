@@ -712,6 +712,24 @@
                  "width":24,
                  "x":540,
                  "y":426
+                }, 
+                {
+                 "gid":13629,
+                 "height":42,
+                 "id":176,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"iFramePathName",
+                         "type":"string",
+                         "value":"pitch"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":174,
+                 "y":198
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -759,7 +777,7 @@
          "y":0
         }],
  "nextlayerid":44,
- "nextobjectid":176,
+ "nextobjectid":177,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
@@ -789,6 +807,10 @@
         {
          "firstgid":11029,
          "source":"..\/..\/..\/..\/.bundled\/tilesets\/Tileset_Javascript.json"
+        }, 
+        {
+         "firstgid":13629,
+         "source":"..\/..\/..\/tilesets\/SlideShowObjects.json"
         }],
  "tilewidth":24,
  "type":"map",
