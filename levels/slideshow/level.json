@@ -1,0 +1,14 @@
+{
+  "title": "TQ Slide Show",
+  "description": "This is a way to create a more interactive slide show within TwilioQuest!",
+  "mission_icon": "slidesx0.15.png",
+  "is_mission": true,
+  "priority": 10,
+  "backgroundMusic": "hackertheme_104771b",
+  "backgroundEffect": {
+    "key": "vr",
+    "options": {}
+  },
+  "flavorTextOverrides": {},
+  "objectives": []
+}
