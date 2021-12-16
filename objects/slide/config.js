@@ -20,6 +20,9 @@ module.exports = {
                 "http://localhost:3000/" +
                 event.target.iFramePathName +
                 "?embedded=true",
+              backgroundColor: "#06090f",
+              fontColor: "#5dd463",
+              borderless: false,
             },
           });
         }
