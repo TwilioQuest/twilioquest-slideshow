@@ -13,13 +13,18 @@ module.exports = {
     onPlayerDidInteract: (self, event, world) => {
       if (self === event.target) {
         if (event.target.iFramePathName) {
+          let pathName = event.target.iFramePathName;
+
+          if (pathName === "/") {
+            pathName = "";
+          }
+
+          const url = "http://localhost:3000/" + pathName + "?embedded=true";
+
           world.showOverlayComponent({
             key: "iframe",
             props: {
-              url:
-                "http://localhost:3000/" +
-                event.target.iFramePathName +
-                "?embedded=true",
+              url,
               backgroundColor: "#06090f",
               fontColor: "#5dd463",
               borderless: false,
